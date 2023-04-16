@@ -276,21 +276,21 @@ h1 {
 
     .contentTextFooter h3 {
         color: #fff;
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 20px;
     }
 
     .contentTextFooter p {
         color: #fff;
-        font-size: 1.7rem;
+        font-size: 1.9rem;
         line-height: 1.5;
         margin-bottom: 20px;
     }
 
     .button {
-
-        padding: 20px 30px;
+        font-size: 1.9rem;
+        padding: 30px 50px;
 
     }
 }
