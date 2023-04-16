@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reseña del Marshall Stanmore II - Amantes de la Música</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Reseña del altavoz inalámbrico Marshall Stanmore II para amantes de la música.">
+    <meta name="keywords" content="Marshall Stanmore II, altavoz inalámbrico, amantes de la música">
+    <meta name="author" content="Tu Nombre">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="ContainerHeader">
+            <div class="video-container">
+                <video autoplay muted loop>
+                    <source src="./assets/Marshall.webm" type="video/mp4">
+                </video>
+                <div class="overlay"></div>
+            </div>
+            <div class="content">
+                <h1>Rockea al estilo Marshall</h1>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <header class="Content_Intro">
+            <div>
+                <div class="ContentTextIntro">
+                    <h2>Marshall Stanmore II</h2>
+                    <p>¿Quieres disfrutar de un sonido de alta calidad y potencia en cualquier lugar? Entonces el
+                        altavoz Bluetooth Marshall Stanmore II es la elección perfecta para ti. Con su icónico
+                        diseño vintage y su sonido de primera clase, este altavoz te permite conectarte sin cables a
+                        cualquier dispositivo móvil y disfrutar de la música en cualquier momento y lugar. </p>
+                </div>
+            </div>
+        </header>
+
+        <div class="speaker">
+            <div class="speaker__image">
+                <img src="./assets/imagen3.jpg" alt="Imagen del Marshall Stanmore II">
+            </div>
+            <div class="speaker__content">
+                <h3 class="speaker__title">Características principales</h3>
+                <ul class="speaker__list">
+                    <li>Sistema de altavoces de tres vías</li>
+                    <li>Conectividad Bluetooth</li>
+                    <li>Controles analógicos clásicos</li>
+                    <li>Diseño retro y elegante</li>
+                </ul>
+                <h3 class="speaker__title">Calidad de sonido</h3>
+                <p class="speaker__text">El Marshall Stanmore II cuenta con un sistema de altavoces de tres vías que
+                    ofrece un sonido claro y potente. Los graves son profundos y resonantes, y los agudos son
+                    nítidos y detallados. Este altavoz es perfecto para escuchar música en casa o en fiestas.</p>
+                <h3 class="speaker__title">Conectividad</h3>
+                <p class="speaker__text">El Marshall Stanmore II cuenta con conectividad Bluetooth para reproducir
+                    música de forma inalámbrica. También tiene un puerto de entrada auxiliar para conectar
+                    dispositivos que no tienen Bluetooth.</p>
+                <h3 class="speaker__title">Diseño</h3>
+                <p class="speaker__text">El diseño del Marshall Stanmore II es impresionante, con una carcasa de
+                    vinilo gris y detalles en verde que le dan un aspecto vintage y retro. También cuenta con la
+                    icónica etiqueta de Marshall en la parte superior.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="overlay"></div>
+            <div class="contentTextFooter">
+                <h3>Conclusión</h3>
+                <p>En general, el Marshall Stanmore II es una excelente opción para aquellos que buscan un altavoz
+                    inalámbrico de alta calidad con un sonido potente y un diseño impresionante. Si eres un amante de la
+                    música y quieres disfrutar de un sonido claro y detallado en un diseño elegante, el Marshall
+                    Stanmore II es una gran opción.</p>
+                <p>Si estás interesado en comprar el Marshall Stanmore II, puedes hacerlo en Amazon a través de nuestro
+                    enlace de afiliado:</p>
+                <a href="https://www.amazon.es/Marshall-Stanmore-II-Altavoz-Bluetooth/dp/B07HPS9XJR?ref_=Oct_DLandingS_D_8cb0922d_0"
+                    class="button">Comprar en Amazon</a>
+            </div>
+        </div>
+
+
+
+        <script>
+            let header = document.getElementById("header");
+            let main = document.getElementById("main");
+
+            window.addEventListener("wheel", (event) => {
+                if (event.deltaY > 0 && window.scrollY < header.offsetHeight) {
+                    event.preventDefault();
+                    window.scrollTo({
+                        top: main.offsetTop,
+                        behavior: "smooth",
+                    });
+                }
+            });
+
+
+
+        </script>
+
+
+</body>
+
+</html>
