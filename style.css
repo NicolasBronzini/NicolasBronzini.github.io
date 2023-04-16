@@ -245,7 +245,7 @@ h1 {
     }
 
     .ContentTextIntro p {
-        width: 100%;
+        width: 10 0%;
         font-size: 1.7rem;
     }
 
@@ -301,7 +301,7 @@ h1 {
 
     /* header */
     .ContainerHeader {
-        height: 100vh;
+        height: 60vh;
     }
 
     h1 {
@@ -314,7 +314,7 @@ h1 {
 
     /* header */
     .ContainerHeader {
-        height: 100vh;
+        height: 50vh;
     }
 
     .content {
