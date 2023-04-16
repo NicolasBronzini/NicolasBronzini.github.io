@@ -272,7 +272,9 @@ h1 {
         height: 1000px;
     }
 
-
+    .contentTextFooter {
+        width: 100%;
+    }
 
     .contentTextFooter h3 {
         color: #fff;
